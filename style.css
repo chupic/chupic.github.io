@@ -13,7 +13,9 @@ html {
 	text-decoration: none;
 }
 hr {
-    margin: 0 1.8rem;
+    border-width: 1px;
+    margin-inline-end: 1.8rem;
+    margin-inline-start: 1.8rem;
 }
 body {
 	background: #fff;
@@ -24,6 +26,7 @@ body {
 .page{
 	position: relative;
     display: block;
+	    text-align: justify;
 }
 .post{
 	padding:1.8rem;
@@ -34,15 +37,12 @@ body {
 .post_hov:hover{
 	background:rgba(0,0,0, 0.1);
 }
-.cat_thumb{
-	
-}
 .thumb{
 }
 .thumb img{
 	border-radius: 5px;
 	width: 100%;
-   
+	display: block;
 }
 .cat_thumb{
 	position: relative;
@@ -108,4 +108,15 @@ body {
       -webkit-box-orient: vertical;
       line-clamp: 3;
       box-orient: vertical;
+}
+.content{
+	margin:1.8rem;
+}
+
+.post_text{
+	margin-top:1.8rem;
+	font-size:1.7rem;
+}
+.post_text img{
+	width: 100%;
 }
