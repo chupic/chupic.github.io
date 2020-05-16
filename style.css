@@ -17,7 +17,7 @@ hr {
     border-width: 1px;
     margin-inline-end: 1.8rem;
     margin-inline-start: 1.8rem;
-	margin: 0 1.8rem;
+	margin: -4px 1.8rem 0px 1.8rem;
 }
 body {
 	background: #fff;
