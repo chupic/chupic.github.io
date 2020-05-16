@@ -10,8 +10,11 @@ html {
 	font-size: 62.5%; /* 1rem = 10px */
 	scroll-behavior: smooth;
 	-webkit-tap-highlight-color: transparent;
+	text-decoration: none;
 }
-
+hr {
+    margin: 0 1.8rem;
+}
 body {
 	background: #fff;
 	box-sizing: border-box;
@@ -73,7 +76,6 @@ body {
     transform: translate(-50%, -50%);
 	opacity: 0.9;
 }
-
 .categ{
     bottom: 1.3rem;
     left: 1.3rem;
@@ -86,8 +88,6 @@ body {
 .categ span{
    font-weight:bold;
 }
-
-
 .title_excerpt{
 	font-size: 1.8rem;
     margin-top: 1rem;
@@ -99,4 +99,13 @@ body {
     margin: 0.5rem 0 0 0;
     color: #404040;
     font-weight: normal;
+	overflow: hidden;
+      text-overflow: ellipsis;
+      display: -moz-box;
+      -moz-box-orient: vertical;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      line-clamp: 3;
+      box-orient: vertical;
 }
