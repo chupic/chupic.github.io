@@ -120,3 +120,6 @@ body {
 .post_text img{
 	width: 100%;
 }
+.post_text a{
+	font-size:1.7rem;
+}
