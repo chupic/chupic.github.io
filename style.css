@@ -28,7 +28,6 @@ body {
 .page{
 	position: relative;
     display: block;
-	    text-align: justify;
 }
 .post{
 	padding:1.8rem;
