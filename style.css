@@ -49,10 +49,15 @@ body {
 	padding:1.8rem;
 }
 .post_hov:{
-	transition:1s;
+
+	background-position: center;
+  transition: background 0.5s;
+	
 }
 .post_hov:hover{
-	background:rgba(0,0,0, 0.1);
+	background: radial-gradient(circle, transparent 0%, #D2D2D2 50%) center/15000%;
+	background-position: center;
+	transition: background 0.5s;
 }
 .thumb{
 }
