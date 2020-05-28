@@ -179,3 +179,17 @@ body {
 .navigation a {
     background: #cd2653;
 }
+.error{
+	display:block;
+	text-align: center;
+	font-size: 1.8rem;
+	position: absolute;
+    top: 40%;
+	transform: translateY(-50%);
+}
+.error img{
+	display:block;
+	width:30%;
+	height:30%;
+	margin: 0 auto 3rem  auto;
+}
