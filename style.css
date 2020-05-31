@@ -152,6 +152,10 @@ body {
     padding-inline-start: 0;
 	line-height: 1.5;
 }
+.post_text br{
+	margin: 2.5rem;
+}
+
 .navigation {
 	margin:1.8rem;
 	text-align: center;
