@@ -40,22 +40,21 @@ body {
 	box-sizing: border-box;
 	color: #000;
 }
-
 .page{
 	position: relative;
     display: block;
 }
 .post{
-	padding:1.8rem;
+	padding:1.8rem 1.8rem 0px 1.8rem;
 }
-.post_hov:{
-	transition:0.3s;
-	
+.post a{
+	display:block;
+	border-bottom:solid 1px #ccc;
+	padding-bottom:1.3rem;
 }
-.post_hov:active{
+.post:active{
 	background: #DDDDDD;
 	transition:0.3s;
-	
 }
 .thumb{
 }
@@ -97,7 +96,7 @@ body {
 	opacity: 0.9;
 }
 .categ{
-    bottom: 1.3rem;
+    bottom: 0.7rem;
     left: 1.3rem;
     position: absolute;
     color: #fff;
@@ -161,6 +160,8 @@ body {
 .navigation {
 	margin:1.8rem;
 	text-align: center;
+	background: #fff;
+    z-index: 2;
 }
 .navigation p,
 .navigation a{
