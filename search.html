@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-            <title>Error 404 - ideas</title>
+            <title>Search - ideas</title>
         
         <link rel="stylesheet" href="https://chupic.github.io/assets/css/style.css?v=7caee88dd7948009ea96dd170b7f629f">
 		<script data-ad-client="ca-pub-3012232666123999" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -14,24 +14,39 @@
       
    </header>
 <main>
-   <article class="post">
+   <article class="post search-page">
       <div class="hero">
          <header class="hero__content">
             <div class="wrapper">
-               <h1>404</h1>
-               <p>Page not found</p>
+               <h1>
+                  Search
+               </h1>               
             </div>
          </header>
       </div>
       <div class="wrapper post__entry">
-         <p>The page you were looking for appears to have been moved, deleted or does not exist. You could go back to where you were or head straight to our home page.</p>
-         <p>
-            <svg width="1.041em" height="0.416em" aria-hidden="true">
-               <use xlink:href="https://chupic.github.io/assets/svg/svg-map.svg#arrow-prev"/>
-            </svg>
-            <a href="https://chupic.github.io/" class="readmore">
-               Go home</a>
-         </p>
+          
+         <form action="https://chupic.github.io/search.html" class="search-page__form">
+            <input
+               type="search"
+               name="q"
+               placeholder="search..."
+               class="search-page__input"/>
+            <button type="submit">Submit</button>
+         </form>
+
+         <script>
+            (function () {
+               var cx = '';
+               var gcse = document.createElement('script');
+               gcse.type  = 'text/javascript';
+               gcse.async = true;
+               gcse.src   = 'https://cse.google.com/cse.js?cx=' + cx;
+               var s = document.getElementsByTagName('script')[0];
+               s.parentNode.insertBefore(gcse, s);
+            })();
+         </script>
+         <gcse:searchresults-only></gcse:searchresults-only>
       </div>
    </article>
 </main>
