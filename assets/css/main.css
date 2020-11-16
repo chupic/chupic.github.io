@@ -70,6 +70,7 @@ body {
     color: #303030;
     font-weight: bold;
     background: #fff;
+	box-shadow: 0 4px 7px 3px rgba(0,0,0,.1);
 }
 .feed__item img:active,
 .feed__item:active{
