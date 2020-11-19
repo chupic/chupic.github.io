@@ -156,3 +156,30 @@ body {
 .post_tag li:nth-last-of-type(1n+3) {
     display: none;
 } 
+.custom_field{
+	display:flex;
+}
+.profit p,
+.investments p{
+	    font-weight: 700;
+		margin-right:15px;
+		background: #eee;
+		padding: 5px 10px;
+}
+.profit p::before{
+	content:"Прибыль: ";
+	    font-weight: 100;
+}
+.investments p::before{
+	content:"Инвестиции: ";
+	    font-weight: 100;
+	
+}
+.profit p::after{
+	content:" ₽/мес";
+	font-weight: 700;
+}
+.investments p::after{
+	content:" ₽";
+	font-weight: 700;
+}
