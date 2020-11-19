@@ -157,12 +157,11 @@ body {
     display: none;
 } 
 .custom_field{
-	display:flex;
+	
 }
 .profit p,
 .investments p{
 	    font-weight: 700;
-		margin-right:15px;
 		background: #eee;
 		padding: 5px 10px;
 }
