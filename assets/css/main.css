@@ -157,7 +157,8 @@ body {
     display: none;
 } 
 .custom_field{
-	
+	margin-bottom: 1rem;
+
 }
 .profit p,
 .investments p{
