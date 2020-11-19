@@ -23,6 +23,7 @@ blockquote{
 	border-left: solid 1px;
     padding-left: 25px;
     margin-inline-start: 0;
+	font-style:italic;
 }
 body {
     background: #fff;
