@@ -13,6 +13,7 @@ html, body {
 table{
 	margin: 10px 0;
 	    width: 100%;
+		border-collapse: collapse;
 }
 td {
 	border: solid 1px #000;
