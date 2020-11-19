@@ -168,11 +168,11 @@ body {
 }
 .profit p::before{
 	content:"Прибыль: ";
-	    font-weight: 500;
+	    font-weight: 200;
 }
 .investments p::before{
 	content:"Инвестиции: ";
-	    font-weight: 500;
+	    font-weight: 200;
 	
 }
 .profit p::after{
