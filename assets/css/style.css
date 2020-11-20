@@ -171,6 +171,7 @@ body {
     display: none;
 } 
 .custom_field{
+	position:relative;
 	margin-bottom: 1.8rem;
     background: #f5f5f5;
     padding: 5px 10px;
