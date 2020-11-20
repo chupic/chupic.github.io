@@ -80,6 +80,7 @@ body {
     margin: 1.8rem;
     font-size: 1.8rem;
     color: #303030;
+	border-radius: 10px;
     font-weight: bold;
     background: #fff;
 	box-shadow: 0 4px 7px 3px rgba(0,0,0,.1);
@@ -94,6 +95,7 @@ body {
 .feed__item img {
     width: 100%;
     display: block;
+	border-radius: 10px 10px 0px 0px;
 }
 .post_page{
 
@@ -169,14 +171,17 @@ body {
     display: none;
 } 
 .custom_field{
-	margin-bottom: 1rem;
+	margin-bottom: 1.8rem;
+    background: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 10px;
+	box-shadow: 0 4px 7px 3px rgba(0,0,0,.1);
+}
 
 }
 .profit p,
 .investments p{
 	    font-weight: 700;
-		background: #eee;
-		padding: 5px 10px;
 }
 .profit p::before{
 	content:"Прибыль: ";
