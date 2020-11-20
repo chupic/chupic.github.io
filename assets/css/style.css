@@ -186,6 +186,7 @@ body {
     transform: translate(0, -50%);
     position: absolute;
     font-style: italic;
+	font-weight: 700;
     background: #cd2653;
     border-radius: 100rem;
     padding: 16px 14px;
