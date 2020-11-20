@@ -182,7 +182,7 @@ body {
 .custom_field::after{
 	content: "i";
     top: 50%;
-    right: 1.8rem;
+    right: 1.3rem;
     transform: translate(0, -50%);
     position: absolute;
     font-style: italic;
@@ -193,6 +193,7 @@ body {
     color: #fff;
     font-size: 1.8rem;
     line-height: 0;
+	font-family: serif;
 }
 .profit p,
 .investments p{
